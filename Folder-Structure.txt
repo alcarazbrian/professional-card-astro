@@ -1,0 +1,26 @@
+
+public/
+  ├── files/
+  |      └── resume-cv.pdf -> here you can put your resume in pdf
+  ├── images/
+  |      └── profile.webp  -> here you can put your profile photo, these two are an example, you can delete them
+  |      └── profile2.webp
+  ├── favicon.ico
+src/
+  ├── components/
+  │     └── Card.astro  -> the card is only its structure
+  ├── layouts/
+  │     └── BaseLayout.astro -> The BaseLayout is the base of all the html, here you can change the font, icons and favicon
+  ├── pages/
+  │     └── index.astro -> index is the main page where you will make changes to your professional profile to your liking
+  ├── styles/
+  │     ├── global.css
+  │     └── card.css -> here you can change the card styles. Colors, sizes, fonts, etc.
+
+  <!--
+	"Hi there!, I'm Brian. I hope this small template helps you gain visibility while you build great projects. Thank you for using it. I wish you success in everything you set out to do; you will surely achieve great things.
+
+	Here is my GitHub {https://github.com/alcarazbrian}. You can help me by following me, giving a Star to the template, and sharing it so others can see and use it.
+
+	Have a great day!"
+ -->

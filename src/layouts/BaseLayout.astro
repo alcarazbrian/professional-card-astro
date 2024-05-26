@@ -1,0 +1,29 @@
+---
+//src/layouts/BaseLayout.astro
+const { title = 'Personal Card Astro', description } = Astro.props;
+
+import '../styles/global.css';
+---
+<!-- Here you can change everything related to the head, favicon, icons, and fonts. -->
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content={description}>
+    <!-- FAVICON -->
+    <link rel="shortcut icon" href="..//favicon.ico" type="image/x-icon">
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap" rel="stylesheet">
+    <!-- CDN ICON BOOTSTRAP 5 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <title>{title}</title>
+  </head>
+  <body>
+    <main>
+      <slot />
+    </main>
+  </body>
+</html>
