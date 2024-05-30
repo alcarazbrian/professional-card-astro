@@ -11,6 +11,12 @@ Have a great day!"
 
 ![performance web](performance.png)
 
+<hr/>
+
+<h3 align="center">
+ ⭐ Leave a star if you like this project! ⭐️
+</h3>
+
 ## Deploy
 
 [![](https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)](https://personal-card-astro.netlify.app/)
