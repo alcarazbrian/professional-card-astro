@@ -99,8 +99,8 @@ Make sure you have the following installed on your machine:
 1. **Clone the Template Repository**
 
     ```bash
-    git clone https://github.com/yourusername/your-template-repo.git
-    cd your-template-repo
+    https://github.com/alcarazbrian/professional-card-astro.git
+    cd professional-card-astro
     ```
 
 2. **Install Dependencies**
